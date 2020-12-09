@@ -1,0 +1,118 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#main-content{
+    margin-top:50px;
+}
+
+.left-menu a{
+    text-decoration: none;
+}
+
+
+#content{
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 7px #aaa;
+}
+
+
+.single-post{
+
+    margin-bottom: 25px;
+}
+
+
+.single-post img{
+    width: 100%;
+    height: auto;
+}
+
+.pagination{
+    background: #ccc;
+    display: inline-block;
+    padding:5px;
+    border: 1px solid #ccc;
+
+}
+
+
+a:hover{
+    color:red;
+}
+
+
+.content{
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 7px #aaa;
+}
+
+
+
+
+/*footer starts*/
+footer{
+    color: black;
+    padding: 1% 10%;
+    background: lightgray ;
+}
+
+footer a{
+    color: black;
+    margin: 0 10px;
+}
+footer a:hover{
+    color: red;
+}
+/*footer ends*/
+
+.newspace{
+    margin-bottom: 80px;
+}
+
+
+
+.mydiv{
+    
+    width:200px;
+    height:70px;
+    background-color:red;
+    position:relative;
+    
+    
+    -webkit-animation-name: portal;
+    animation-name: portal;
+    
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    
+    -webkit-animation-direction:alternate;
+    animation-direction:alternate;
+}
+
+
+@-webkit-keyframes portal{
+    0%{left:0;top:0; background:red}
+    25%{left:625px;top:0; background:green;border-radius: 5px}
+    50%{left:625px;top:300px; background:yellow;border-radius: none}
+    75%{left:0;top:300px; background:blue;border-radius: 5px}
+    100%{left:0;top:0; background:red;}
+}
+@keyframes portal{
+     0%{left:0;top:0; background:red}
+    25%{left:625px;top:0; background:green;border-radius: 5px}
+    50%{left:625px;top:300px; background:yellow;}
+    75%{left:0;top:300px; background:blue;border-radius: 5px}
+    100%{left:0;top:0; background:red;}
+}
+
+
+

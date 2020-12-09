@@ -1,0 +1,24 @@
+html{
+    scroll-behavior: smooth;
+}
+#loginbody {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url(../img/blog-spot.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: auto;
+  background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
