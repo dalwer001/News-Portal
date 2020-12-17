@@ -1,2 +1,2 @@
 # News-Portal
-It's just a simple news portal project. Where you could see some news and admin can control those news.
+It's just a simple news portal project. This is web based application. By this application admin can create category of news, create posts and user read this news posts. So, here Admin collect the news from a authentic source then he create  title of the news and also add details of the news with picture and then post it. User can access this site and get different categories news such as international, national, business, sports, politics etc and easily can read those news with details. Technologies- PHP, SQL server, HTML,CSS, JavaScript, Bootstrap
